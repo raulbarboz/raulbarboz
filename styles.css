@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#f5f5f5;
+    font-family: 'Manjari', sans-serif;
+}
+
+.container{
+    background: #f3f5ab;
+    max-width:960px;
+    padding:10px;
+    margin:0 auto;
+}
+
+.sub-container{
+    display:grid;
+    grid-template-columns: 1fr 10fr
+}
+
+.left img{
+    width:150px;
+}
+.right{
+    padding:10px;
+}
